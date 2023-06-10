@@ -1,0 +1,172 @@
+<%- include('partials/header') %>
+
+
+
+<nav class="navbar navbar-dark navbar-expand">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/mars_tv.png" alt=""></a>
+        <ul class="navbar-nav d-inline-flex">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-solid fa-bell"></i></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Log In</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section id="landing">
+    <div class="container land">
+        <div class=" hbtn-group">
+        <button class="btn but btn-lg watch-now hbtn"> <i class="fas hbtn-icon fa-solid fa-play"></i> Watch Now</button>
+        <button class="btn but  btn-lg btn-light more-info hbtn"> <i class="fas hbtn-icon fa-regular fa-circle-exclamation"></i> More Information</button>
+    </div>
+
+        
+    </div>
+    <div class="f-btn d-flex  flex-row button">
+        <button class="genre flex-fill ">Romance</button>  
+        <button class="genre flex-fill ">Animation</button> 
+        <button class="genre flex-fill ">Horror</button> 
+        <button class="genre flex-fill ">Action</button>
+       </div>
+      
+</section>
+
+<section id="popular">
+    <div class="page2">
+    <div class=" topic2">
+    <h1>Popular on Mars</h1>
+   </div>
+    <div class="container second">
+        <div class="carousel">
+            <a href="#"><img src="images/us.png" alt="" id="1"></a> 
+            <a href="#"><img src="images/st.png" alt="" id="2"></a> 
+            <a href="#"><img src="images/dt.png" alt="" id="3"></a> 
+            <a href="#"> <img src=" images/pp.png"alt="" id="4"></a> 
+            <a href="#"> <img src="images/ldr.png" alt="" id="5"></a>
+            </div>
+
+    </div> 
+    <div class="topic2">
+        <h1 class="trend">Trending</h1>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <script>
+                function myFunction() {
+                    console.log("Hey");
+                }
+            </script>
+           <i class="fa-solid fa-bars fa-2x"></i>
+          </a>
+       </div>
+    <div class="container second-carousel">
+    <div class="carousel">
+        <a href="#"><img src="images/Knives.png" alt="" id="1"></a> 
+        <a href="#"><img src="images/Shawshank.png" alt="" id="2"></a> 
+        <a href="#"><img src="images/Fifty.png" alt="" id="3"></a>
+        <a href="#"><img src=" images/Despicable.png"alt="" id="4"></a> 
+        <a href="#"><img src="images/Ambulance.png" alt="" id="5"></a> 
+    </div>
+</div>
+</div>
+</section>
+
+<section id="watch">
+    <div class="community row">
+        <div class="text col-lg-6">
+            <h3 class="wf">Watch with friends</h3>
+            <h5 class="com">Our community is just for you.</h4>
+            <p class="cp">Check out our platinum community plan which is cheap and connects you with your friends, helping you continually share your activities. </p>
+        </div>
+    <div class=" commun-div col-lg-6">
+        <img class="commun" src="images/watch.png" alt="watch">
+    </div>
+    </div>
+</section>
+
+<section id="anywhere">
+    <div class="watch">
+        <div class="text ">
+            <h2 class="any">Anywhere, Anytime</h3>
+            <p class="catch">Catch the new episodes of your favourite series on your desktop, tablet or laptop. </p>
+        </div>
+        <div class="watch-on">
+            <button class="where active"> 
+                <span class="where-text">TV</span> <i class="anywhere-btn fas fa-light fa-tv"></i> 
+            
+            </button>
+            <button class="where">
+                 <span class="where-text">Tablet</span> <i class="anywhere-btn fas fa-solid fa-tablet"></i>
+                </button>
+            <button class="where">
+                 <span class="where-text">Mobile</span> <i class="anywhere-btn fas fa-regular fa-mobile"></i>
+                </button>
+
+        </div>
+    <div class="anywhere-pic" >
+        <img class="money-heist" src="images/anywhere.png" alt="watch">
+    </div>
+    </div>
+</section>
+
+<section id="Pricing">
+    <h4 class="pricing-header">Subscription Plans</h4>
+    <p class="pricing-paragraph">All our plans are affordable</p>
+    <div class="tbl">
+    <div class="subscribe row">
+        <div class="col-md-3"></div>
+        <div class="price-btn col-md-3"><button class="btn pricing-button active">Standard</button></div>
+        <div class="price-btn col-md-3"><button class="btn pricing-button">Premium</button></div>
+        <div class="price-btn col-md-3"><button class="btn pricing-button">Community</button></div>
+    </div>
+    <div class="subscribe row">
+        <div class="type col-md-3">Silver</div>
+        <div class="col-md-3">$5</div>
+        <div class="col-md-3">$40</div>
+        <div class="col-md-3">$20</div>
+    </div>
+    <div class=" subscribe row">
+        <div class="type col-md-3">Gold</div>
+        <div class="col-md-3">$50</div>
+        <div class="col-md-3">$100</div>
+        <div class="col-md-3">-</div>
+    </div>
+    <div class="subscribe row">
+        <div class="type col-md-3">Platinum</div>
+        <div class="col-md-3">$150</div>
+        <div class="col-md-3">-</div>
+        <div class="col-md-3">$40</div>
+    </div>
+</div>
+</section>
+<section id="stayInTouch">
+    <div class="stay">
+    <h3>Stay In Touch With Us</h3>
+    <p>Subscribe for New Movie Updates</p>
+</div>
+    <div class="input">
+        <input type="text">
+        <button class="signUp" type="submit">Sign Up</button>
+    </div>
+</section>
+<footer>
+    <div class="row">
+        <div class="foot first col-md-3">'Cause I'm beginnin' to feel like a Rap God, Rap God
+            All my people from the front to the back nod, back nod</div>
+        <div class="foot col-md-3">'Cause I'm beginnin' to feel like a Rap God, Rap God
+            All my people from the front to the back nod, back nod</div>
+        <div class="foot col-md-3">'Cause I'm beginnin' to feel like a Rap God, Rap God
+            All my people from the front to the back nod, back nod</div>
+        <div class="foot col-md-3">'Cause I'm beginnin' to feel like a Rap God, Rap God
+            All my people from the front to the back nod, back nod</div>
+    </div>
+</footer>
+
+
+
+
+<%- include('partials/footer') %>

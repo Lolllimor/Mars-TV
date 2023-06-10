@@ -1,0 +1,367 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+
+}
+
+.navbar {
+    padding: 0 50px 0 50px;
+    min-width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(#005ea3, #064663);
+}
+.land{
+    background-image:url(/images/strange.jpg);
+    background-position: 0 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    min-height: 95vh;
+    position: relative;
+}
+
+
+  
+.genre  {
+    padding: 5px 0;
+    font-size: 16px;
+    background-color: #F3EDDF;
+    color:#025994;
+    border-radius: 0;
+    border: 0;
+    bottom: 0;
+}
+
+#landing {
+    padding: 0;
+    height: 100%;
+}
+
+#popular {
+    padding-top: 20px;
+    background-color: #064663;
+    color: #fff;
+}
+
+.fas {
+    margin-right: 5px;
+}
+
+.navbar {
+    max-height: 60px;
+} 
+
+.topic2 {
+    padding: 35px 50px 5px;
+}
+
+.hbtn {
+    border-radius: 12px;
+    bottom: 100px;
+    text-align: center;
+}
+
+.hbtn-group {
+    padding-left: 20px;
+}
+
+
+.f-btn {
+    position: absolute;
+    bottom: 0;
+    gap: 2px;
+    justify-content:center;
+    min-width: 100%;
+}
+
+.but{
+    position: absolute;
+    z-index: 1;
+}
+
+.watch-now {
+    font-size: 16px;
+    background-color:#025994 ;
+    color: #fff;
+}
+
+.more-info {
+    font-size: 16px;
+    color:#025994;
+    background-color: #fff;
+    left: 200px;
+}
+
+.page2 {
+   min-height: 100vh;
+}
+
+.second {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    background-color: var(--accent)
+}
+
+.container.second {
+    margin: 0 50px 0;
+    padding-bottom: 10px;
+    height: 380px;
+}
+
+.container.second-carousel {
+    margin: 0 50px 0;
+    width: 100%;
+}
+
+.second-carousel {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    aspect-ratio: 8/1;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    display: flex;
+    overflow-x: auto;
+    height: 100%;
+    aspect-ratio: 11/1;
+    padding-bottom: 10px;
+    gap: 15px;
+}
+
+.trend{
+    display: inline-flex;
+}
+
+img {
+    height: 100%;
+}
+
+.fa-bars {
+    right: 75px;
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+}
+
+.community {
+    background-color: #F3EDDF;
+}
+
+.commun {
+    width: 100%;
+}
+
+
+.text {
+    padding-top: 50px ;
+    text-align: left;
+}
+
+#watch {
+    padding: 40px 40px;
+    background-color: #F3EDDF;
+}
+
+.wf {
+    margin-bottom: 30px;
+}
+
+.com{
+    margin-bottom: 50px;
+}
+
+.cp {
+    width: 75%;
+}
+
+#anywhere {
+   padding: 10px 40px;
+   background-color: #064663; 
+   color: #fff;
+}
+
+.any {
+    padding-top: 30px;
+    color: #FE9870;
+}
+
+.where {
+    background-color: rgba(120, 215, 221, 0.29);
+    border: none;
+    margin: 5px auto 30px;
+    font-size: 23px;
+    height:95px;
+    width:350px;
+    border-bottom: 7px solid rgba(255, 255, 255,0.82);
+} 
+
+.anywhere-btn {
+    color: #fff;
+    padding-bottom: 2px;
+}
+
+.money-heist {
+    display: block;
+    width: 70%;
+    margin: 5px auto 0;
+
+}
+
+
+.watch-on {
+    padding: 10px 0 35px;
+    font-size: 0;
+    text-align: center;
+}
+
+.watch .text {
+    padding-top: 10px;
+}
+
+.where-text {
+    display: block;
+color: #064663;
+line-height: 10px;
+font-size: 20px;
+font-weight: 500;
+}
+
+.where.active {
+    background-color: #78D7DD;
+    border: none;
+    margin: 5px auto 30px;
+    font-size: 23px;
+    height:95px;
+    width:350px;
+    border-bottom: 7px solid rgb(255, 255, 255);
+}
+
+.where:hover {
+    background-color: #78D7DD;
+    border: none;
+    margin: 5px auto 30px;
+    font-size: 23px;
+    height:95px;
+    width:350px;
+    border-bottom: 7px solid rgb(255, 255, 255);
+}
+
+#Pricing {
+    font-weight: 500;
+    background-color: #F3EDDF;
+    padding: 40px;
+}
+
+.pricing-header {
+    color:#FE9870 ;
+}
+
+.pricing-paragraph {
+padding-bottom: 15px;
+}
+
+.price-btn {
+    text-align: center;
+}
+
+.pricing-button:hover {
+    background-color: #FE9870;
+}
+
+.pricing-button {
+    padding: 8px 18px;
+    border: solid 2px #FE9870;
+    margin: 10px 0;
+}
+
+.pricing-button.active {
+    background-color: #FE9870;
+    color: #fff;
+}
+
+.subscribe {
+    padding: 10px 30px;
+    text-align: center;
+    
+}
+
+.tbl {
+    padding: 0 50px;
+}
+
+.col-md-3 {
+    width: 22%;
+}
+
+.type {
+    text-align: left;
+}
+
+#stayInTouch {
+    background-color: #064663;
+    color: #fff;
+    padding: 20px 40px;
+}
+
+div.input {
+    margin: 25px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="text"] {
+    background: transparent;
+    border:solid 1px #fff;
+    border-right: none;
+    width: 400px;
+
+}
+
+.signUp {
+    border: none;
+    background-color: #D9D9D9;
+    padding: 1px 30px;
+}
+
+.stay{
+    display: inline-block;
+}
+
+.stay p {
+    margin: 0;
+}
+
+footer {
+    background-color:#F3EDDF ;
+    padding: 20px 50px 30px;
+}
+
+.foot.first {
+    margin: 0 60px 0 0;
+}
+
+.foot {
+    width: 14%;
+    margin: 0 60px;
+}
+
+footer .row {
+    width: 100%;
+}
